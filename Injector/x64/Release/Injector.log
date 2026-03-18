@@ -1,0 +1,63 @@
+﻿  Inject.cpp
+C:\Users\Administrator\Downloads\Injector\utils\utils.h(9,3): warning C4101: “ex”: 未引用的局部变量
+  (编译源文件“inject/Inject.cpp”)
+  
+C:\Users\Administrator\Downloads\Injector\utils\utils.h(62,3): warning C4101: “ex”: 未引用的局部变量
+  (编译源文件“inject/Inject.cpp”)
+  
+C:\Users\Administrator\Downloads\Injector\utils\utils.h(96,3): warning C4101: “ex”: 未引用的局部变量
+  (编译源文件“inject/Inject.cpp”)
+  
+C:\Users\Administrator\Downloads\Injector\Protection\Protection.hpp(72,70): warning C4244: “参数”: 从“const uint64_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“inject/Inject.cpp”)
+  
+C:\Users\Administrator\Downloads\Injector\Protection\Protection.hpp(118,27): warning C4312: “reinterpret_cast”: 从“const uint32_t”转换到更大的“uint8_t *”
+  (编译源文件“inject/Inject.cpp”)
+  
+C:\Users\Administrator\Downloads\Injector\Protection\Protection.hpp(337,3): warning C4002: 类函数宏的调用“import”参数过多
+  (编译源文件“inject/Inject.cpp”)
+  
+C:\Users\Administrator\Downloads\Injector\inject\Inject.cpp(19,5): warning C4101: “ex”: 未引用的局部变量
+C:\Users\Administrator\Downloads\Injector\inject\Inject.cpp(101,5): warning C4101: “ex”: 未引用的局部变量
+C:\Users\Administrator\Downloads\Injector\inject\Inject.cpp(209,52): warning C4244: “参数”: 从“const SIZE_T”转换到“int”，可能丢失数据
+C:\Users\Administrator\Downloads\Injector\inject\Inject.cpp(117,5): warning C4101: “ex”: 未引用的局部变量
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+  (编译源文件“inject/Inject.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\Users\Administrator\Downloads\Injector\Protection\Protection.hpp(78,24):
+          查看对正在编译的函数 模板 实例化“std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)”的引用
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\Administrator\Downloads\Injector\Protection\Protection.hpp(78,24):
+              请参阅 "memory::get_module_handle" 中对 "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" 的第一个引用
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\include\xstring(812,17):
+          查看对正在编译的函数 模板 实例化“void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)”的引用
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.44.35207\include\xstring(968,18):
+          查看对正在编译的函数 模板 实例化“_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)”的引用
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  正在生成代码
+C:\Users\Administrator\Downloads\Injector\utils\utils.h(74): warning C4715: “utils::find_pattern”: 不是所有的控件路径都返回值
+  530 of 1316 functions (40.3%) were compiled, the rest were copied from previous compilation.
+    83 functions were new in current compilation
+    68 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Injector.vcxproj -> C:\Users\Administrator\Downloads\Injector\x64\Release\Injector.exe
