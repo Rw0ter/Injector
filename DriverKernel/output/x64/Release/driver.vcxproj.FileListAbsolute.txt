@@ -1,3 +1,0 @@
-C:\Users\Administrator\Downloads\Injector\DriverKernel\output\x64\Release\driver.sys.lastcodeanalysissucceeded
-C:\Users\Administrator\Downloads\Injector\DriverKernel\output\x64\Release\NativeCodeAnalysis.read.1.tlog
-C:\Users\Administrator\Downloads\Injector\DriverKernel\output\x64\Release\driver.sys
